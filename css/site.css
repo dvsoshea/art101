@@ -5,7 +5,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: lightyellow;
+    color: palevioletred;
 
 }
 .center{
@@ -60,4 +60,10 @@ a{
 #bottom {
     padding-top: 100p;
     padding-left: 40%;
+}
+
+#labs {
+    position: absolute;
+    top: 75%;
+    left: 70%;
 }
