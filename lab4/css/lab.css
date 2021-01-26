@@ -1,0 +1,14 @@
+body {
+    background-image: url(/lab4/img/images.jpeg);
+}
+
+#textbox{
+    padding: 20px;
+    width: 30%;
+    background-color:azure;
+}
+
+#laundrydisaster {
+    position: relative;
+    left: 40%;
+}
