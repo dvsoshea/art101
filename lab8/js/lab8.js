@@ -5,15 +5,21 @@
 */
 
 function firstThing(test){
-    console.log(test + "this is the first.");
+    var first = document.createElement("first");
+    first.innerHTML = test + "this is the first.<br>";
+    document.getElementById("demo").appendChild(first);
 };
 
 function secondThing(test){
-    console.log(test + "this is the second.");
+     var second = document.createElement("second");
+     second.innerHTML = test + "this is the second.<br>";
+     document.getElementById("demo").appendChild(second);
 };
 
 function thirdThing(test){
-    console.log(test + "this is the third.");
+     var third = document.createElement("third");
+     third.innerHTML = test + "this is the third.<br>";
+     document.getElementById("demo").appendChild(third);
 };
 
 //first test
@@ -22,8 +28,8 @@ secondThing("TEST 1 ");
 thirdThing("TEST 1 ");
 
 //second test
-setTimeout(function(){
-    firstThing("TEST 2 ");
+setTimeout(function()
+        {firstThing("TEST 2 ")    
 },500);
 
 setTimeout(function(){
