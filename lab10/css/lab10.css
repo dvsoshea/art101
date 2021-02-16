@@ -1,0 +1,12 @@
+/*
+    CSS file for lab 10
+    created by Davis to be 
+    more thorough
+*/
+
+body{
+    background-color: greenyellow;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 10s;
+}
