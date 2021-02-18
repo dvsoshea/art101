@@ -1,0 +1,17 @@
+/*
+    CSS file for lab 11
+    created by Davis to be 
+    more thorough
+*/
+
+body{
+    background-color: forestgreen;
+    color: orangered;
+    text-align: center;
+}
+
+.special{
+    background-color: darksalmon;
+    color: darkorchid;
+    transform: scale(3,1);
+}
