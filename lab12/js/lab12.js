@@ -1,6 +1,7 @@
 /*
 lab 12 js file
 by Davis
+J.K. Rowling sucks
 */
 
 //wait for HTML to load
