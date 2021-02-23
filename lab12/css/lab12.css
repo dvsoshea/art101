@@ -1,0 +1,18 @@
+/*
+    CSS file for lab 11
+    created by Davis to be 
+    more thorough
+*/
+
+body{
+    background-color: blue;
+    color: darkorange;
+    text-align: center;
+}
+
+#output{
+    color: darkorange;
+    border-color: coral;
+    border-style: dotted;
+    border-width: 10px;
+}
