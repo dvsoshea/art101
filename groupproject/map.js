@@ -11,8 +11,8 @@ var countyIdArray = ["_x30_01_Alameda","_x30_69_San_Benito", "_x30_81_San_Mateo"
             
             var svgDoc = a.contentDocument;
             
-            svgDoc.getElementsByTagName("svg")[0].setAttribute("viewBox","100 225 500 500");
-            svgDoc.getElementsByTagName("svg")[0].setAttribute("height","auto");
+            svgDoc.getElementsByTagName("svg")[0].setAttribute("viewBox","10 325 800 300");
+            svgDoc.getElementsByTagName("svg")[0].setAttribute("height", 500);
             
             /*for (var i = 0; i <= countyIdArray.length; i++){
                 svgDoc.getElementById(countyIdArray[i])
