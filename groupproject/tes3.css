@@ -1,0 +1,56 @@
+body{
+    background-color:darkkhaki;
+    color: beige;
+    font-family: monospace;
+}
+
+object {
+    display: block;
+    margin: auto;
+}
+
+.maincounties {
+    cursor: pointer;
+}
+
+text {
+    pointer-events: none;
+}
+
+.maincounties:hover{
+    fill:orange;
+}
+
+/*
+#_x30_01_Alameda:hover{
+    fill:orange;
+}
+
+#_x30_69_San_Benito:hover{
+        fill:orange;
+}
+
+#_x30_81_San_Mateo:hover{
+        fill:orange;
+}
+
+#_x30_87_Santa_Cruz:hover{
+        fill:orange;
+}
+
+#_x30_53_Monterey:hover{
+        fill:orange;
+}
+
+#_x30_85_Santa_Clara:hover{
+        fill:orange;
+}
+
+#_x30_13_Contra_Costa:hover{
+        fill:orange;
+}
+
+#_x30_75_San_Francisco:hover{
+        fill:orange;
+}
+*/
