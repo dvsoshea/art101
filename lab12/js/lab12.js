@@ -29,7 +29,7 @@ window.addEventListener('load', function() {
         };
     };   
     
-    $("#button").click(function(){
+    $("#submit").click(function(){
        //gets the value of #input and assigns it to a variable name
        var name = $("#input").val();
        //runs sortingHat(name) and stores the result in a variable house    
