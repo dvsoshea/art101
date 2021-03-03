@@ -1,0 +1,13 @@
+/* 
+CSS file for lab 13
+*/
+
+body{
+    background-color:darkkhaki;
+    color: beige;
+    font-family: monospace;
+}
+
+#output{
+    column-count: 4;
+}
