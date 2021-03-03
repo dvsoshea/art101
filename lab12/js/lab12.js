@@ -6,9 +6,8 @@ J.K. Rowling sucks
 
 //wait for HTML to load
 window.addEventListener('load', function() {
-    var sortingHat = function(str){
-        var nameArray = str.split('');
-        mod = nameArray.length % 4;
+     function sortingHat(str){
+        mod = str.length % 4;
         
         //Without conditionals
         var school = ["Gryffindor", "Ravenclaw", "Slytherin", "Hufflepuff"];
@@ -35,7 +34,7 @@ window.addEventListener('load', function() {
        //runs sortingHat(name) and stores the result in a variable house    
        var house = sortingHat(name);
        //appends a new styled paragraph to #output 
-       $("#output").append("<p>The Sorting Hat has sorted you into " + house + "</p>")
+       $("#output").html("<p>The Sorting Hat has sorted you into " + house + "</p>")
     });
     /*sortingHat("Davis");
     sortingHat("off");
