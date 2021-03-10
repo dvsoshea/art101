@@ -1,0 +1,27 @@
+/* 
+CSS file for lab 13
+*/
+
+body{
+    background-color: lightseagreen;
+    color: ghostwhite;
+}
+
+#output{
+    height: 100%; 
+    overflow: auto;
+    text-align: center;
+}
+
+#buttons{
+    width: 150px;
+    margin: auto;
+}
+
+.grid-object{
+    text-align: center;
+}
+
+#next{
+    float: right;
+}

@@ -1,0 +1,18 @@
+body{
+    background-color:darkseagreen;
+    color: beige;
+    font-family: monospace;
+}
+
+object {
+    display: block;
+    margin: auto;
+}
+
+.maincounties {
+    cursor: pointer;
+}
+
+text {
+    pointer-events: none;
+}
